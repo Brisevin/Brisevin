@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Login.isms.iaa.ac.tz</title>
+   <link rel="icon" href="iaa.png">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" type="text/css" href="dashboard.html">
+</head>
+<body>
+   <form action="sidebar.html" method="post">
+      <h2>IAA Student Management System</h2>
+      <h3>LOGIN</h3>
+      <label>User Name</label>
+      <input type="text" name="uname" placeholder="User Name" required><br>
+
+      <label>Password</label>
+      <input type="password" name="password" placeholder="Password" required><br>
+
+      <button type="">Login</button>
+   </form>
+</body>
+<style>
+   body{
+   background: #1690A7;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+*{
+   font-family: sans-serif;
+   box-sizing: border-box;
+
+}
+
+form{
+   width: 500px;
+   border: 2px solod #ccc;
+   padding: 30px;
+   background: #fff;
+   border-radius: 15px;
+}
+h2{
+   text-align: center;
+   margin-bottom: 1px;
+   color: #22406C;
+}
+h3{
+   text-align: center;
+   margin-bottom: 40px;
+   color: #0E0C0C;
+}
+
+input{
+   display: block;
+   border: 2px solid #ccc;
+   width: 95%;
+}
+
+label{
+   color: #888;
+   font-size: 18px;
+   padding: 10px;
+}
+
+button{
+   float: right;
+   background: #555;
+   padding: 10px 15px;
+   color: #ffff;
+   border-radius: 5px;
+   margin-right: 10px;
+   border: none;
+}
+button:hover{
+   opacity: 7;
+}
+.error{
+   background: #f2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+}
+</style>
+</html>

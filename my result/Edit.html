@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>iaa.isms.ac.tz</title>
+	<link rel="icon" href="iaa.png">
+</head>
+<body>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		border: none;
+		outline: none;
+		box-sizing: border-box;
+		font-family: sans-serif;
+	}
+	body{
+		display: flex;
+	}
+	.sidebar{
+		position: sticky;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 190px;
+		height: 100vh;
+		padding: 0 1.7rem;
+		color: #fff;
+		overflow: hidden;
+		transition: all 0.5s  linear;
+		background: darkblue;
+	}
+	.logo{
+		height: 80px;
+		padding: 18px;
+	}
+	.menu{
+		height: 88%;
+		position: relative;
+		list-style: none;
+		padding: 0;
+	}
+	.menu li{
+		padding: 1rem;
+		margin: 8px 0;
+		border-radius: 8px;
+		transition: all 0.5s ease-in-out;
+	}
+	.menu li:hover,
+	.active{
+		background: #1234;
+	}
+	.menu a{
+		color: #fff;
+		font-size: 14px;
+		text-decoration: none;
+		gap: 1.5rem;
+		align-items: center;
+	}
+	.menu a span{
+		overflow: hidden;
+	}
+	.menu a i{
+		font-size: 1.2rem;
+	}
+	.logout{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+	}
+	.logo p{
+		padding-right: 10vh;
+		text-align: right;
+		color: white;
+		width: 10px;
+		height: 5px;
+		text-size: 8px;
+		text-align: center;
+	}
+	.h4{
+		color: burlywood;
+	}
+</style>
+<div class="sidebar">
+	<div class="logo">
+		<h2>
+		<p>Welcome Brighton,</p>
+		</h2>
+	</div>
+		<ul class="menu">
+	<li>
+			<a href="dashboard.html">
+			<i class="fas-fa-tachometer-alt"></i>
+			<span>DASHBOARD</span>
+		</a>
+	</li>
+	<li>
+			<a href="profile.html">
+			<i class="fas-fa-tachometer-alt"></i>
+			<span>PROFILE</span>
+		</a>
+	</li>
+	<li class="active">
+			<a href="edit.html">
+			<i class="fas-fa-tachometer-alt"></i>
+			<span>EDIT YOUR PROFILE</span>
+		</a>
+	</li>
+	<li>
+			<a href="payments.html">
+			<i class="fas-fa-tachometer-alt"></i>
+			<span>PAYMENTS</span>
+		</a>
+	</li>
+	<li>
+			<a href="exam.html">
+			<i class="fas-fa-tachometer-alt"></i>
+			<span>EXAMINATION NUMBER</span>
+		</a>
+	</li>
+	<li>
+			<a href="result.html">
+			<i class="fas-fa-tachometer-alt"></i>
+			<span>RESULTS</span>
+		</a>
+	</li>
+	<li>
+			<a href="password.html">
+			<i class="fas-fa-tachometer-alt"></i>
+			<span>CHANGE PASSWORD</span>
+		</a>
+	</li>
+	<li>
+
+			<a href="home.html">
+			<i class="fas-fa-tachometer-alt"></i>
+			<span>LOGOUT</span>
+			</li>
+		</a>
+	</li>
+	</div>
+
+</body>
+</html>
